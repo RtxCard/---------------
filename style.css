@@ -45,8 +45,8 @@
     top: 40%;
 }
 .card-body {
-    width: 700px;
-    height: 125px;
+    width: 320px;
+    height: 240px;
     margin-right: 4px;
     margin-bottom: 20px;
 }
@@ -63,8 +63,8 @@
     text-align: left;
 }
 .card-wrapper-one img {
-    width: 100px;
-    height: 100px;
+    width: 66px;
+    height: 50px;
 }
 .footer {
     background-color: gray;
@@ -72,5 +72,5 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+
 }
