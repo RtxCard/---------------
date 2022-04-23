@@ -51,3 +51,77 @@ header, footer {
     color: var(--bs-white);
     background-color: var(--color1);
 }
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+    align-items: flex-end;
+    margin-bottom: 120px;
+}
+.img-about {
+    margin-left: 6%;
+}
+hr:not([size]) {
+    height: 3px;
+    width: 41%;
+    margin-left: 0%;
+    color: aqua;
+}
+.text-about {
+    color: aqua;
+    margin-left: 42%;
+    width: 50%;
+    margin-top: 100px;
+}
+.td-about {
+    margin-left: 33%;
+}
+.p-about-first {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -15%;
+}
+.p-about-two {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -8%;
+}
+.p-about-three {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -8%;
+}
+.p-about-four {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -9%;
+}
+.p-about-five {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -12%;
+}
+.p-about-six {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -12%;
+}
+.img-about-two {
+    margin-left: 4%;
+}
+.img-about-three {
+    margin-left: 2%;
+}
+.img-about-four {
+    margin-left: 4%;
+}
+.img-about-five {
+    margin-left: 4%;
+}
+.img-about-six {
+    margin-left: 7%;
+}
