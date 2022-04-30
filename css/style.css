@@ -51,17 +51,7 @@ header, footer {
     color: var(--bs-white);
     background-color: var(--color1);
 }
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x)/ -2);
-    margin-left: calc(var(--bs-gutter-x)/ -2);
-    align-items: flex-end;
-    margin-bottom: 120px;
-}
+
 .img-about {
     margin-left: 6%;
 }
@@ -69,12 +59,10 @@ hr:not([size]) {
     height: 3px;
     width: 41%;
     margin-left: 0%;
-    color: aqua;
+    color: var(--color1);
 }
 .text-about {
-    color: aqua;
-    margin-left: 42%;
-    width: 50%;
+    color: var(--color1);
     margin-top: 100px;
 }
 .td-about {
@@ -124,4 +112,51 @@ hr:not([size]) {
 }
 .img-about-six {
     margin-left: 7%;
+}
+.course-about {
+    background-color: #eee;
+    height: 525px;
+}
+.text-one-c-f {
+    color: var(--color2)
+}
+.first-info-c-f {
+ 
+    border: 2px solid #05b1b1;
+    
+}
+.texts-c-f {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.second-info-c-f {
+
+    border: 2px solid #05b1b1;
+
+}
+.three-info-c-f {
+
+    border: 2px solid #05b1b1;
+
+}
+.four-info-c-f {
+
+    border: 2px solid #05b1b1;
+
+}
+.c-f-position {
+    width: 45%;
+}
+.btn:hover {
+    background-color: var(--color2)
+}
+.c-f-href {
+    text-decoration: none;
+    color: #eee;
+}
+.c-f-href:hover {
+    color: #eee;
 }
