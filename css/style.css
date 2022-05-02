@@ -16,6 +16,43 @@ header, footer {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
     background-size: contain;
 }
+.about-course h2{
+    color: var(--color1);
+}
+.about-course{
+    background-color: #eee;
+}
+.about-icon{
+    width: 60px;
+    height: 60px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.about-icon i{
+    font-size: 25px;
+    color: var(--color2);
+}
+.line{
+    background-color: var(--color1);
+    height: 3px;
+    width: 100px;
+    margin: 0 auto;
+}
+.course-for h4{
+    outline: 4px;
+    outline-style: solid;
+    outline-color: var(--color1);
+    padding: 30px;
+}
+
+
+
+
+
 .itd_play {
     background-color: var(--color1);
     width: 60px;
@@ -51,112 +88,9 @@ header, footer {
     color: var(--bs-white);
     background-color: var(--color1);
 }
-
-.img-about {
-    margin-left: 6%;
-}
-hr:not([size]) {
-    height: 3px;
-    width: 41%;
-    margin-left: 0%;
-    color: var(--color1);
-}
-.text-about {
-    color: var(--color1);
-    margin-top: 100px;
-}
-.td-about {
-    margin-left: 33%;
-}
-.p-about-first {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-left: -15%;
-}
-.p-about-two {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-left: -8%;
-}
-.p-about-three {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-left: -8%;
-}
-.p-about-four {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-left: -9%;
-}
-.p-about-five {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-left: -12%;
-}
-.p-about-six {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-left: -12%;
-}
-.img-about-two {
-    margin-left: 4%;
-}
-.img-about-three {
-    margin-left: 2%;
-}
-.img-about-four {
-    margin-left: 4%;
-}
-.img-about-five {
-    margin-left: 4%;
-}
-.img-about-six {
-    margin-left: 7%;
-}
-.course-about {
-    background-color: #eee;
-    height: 525px;
-}
-.text-one-c-f {
+.course-for h2 {
     color: var(--color2)
 }
-.first-info-c-f {
- 
-    border: 2px solid #05b1b1;
-    
-}
-.texts-c-f {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-}
-.second-info-c-f {
-
-    border: 2px solid #05b1b1;
-
-}
-.three-info-c-f {
-
-    border: 2px solid #05b1b1;
-
-}
-.four-info-c-f {
-
-    border: 2px solid #05b1b1;
-
-}
-.c-f-position {
-    width: 45%;
-}
-.btn:hover {
-    background-color: var(--color2)
-}
-.c-f-href {
-    text-decoration: none;
-    color: #eee;
-}
-.c-f-href:hover {
-    color: #eee;
+.course-plan h2 {
+    color: var(--color1)
 }
